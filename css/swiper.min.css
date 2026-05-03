@@ -1,0 +1,67 @@
+ /* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  #############Bootstrap 5 cdn ######################## 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+     #################### style css######################## 
+    <link rel="stylesheet" href="css/style.css">
+     #################### Responsive css ######################## 
+    <link rel="stylesheet" href="css/Responsive.css">
+    #############themify csss######################## 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+
+
+    <title> App landing page</title>
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarText" data-bs-offset="0" tabindex="0" id="navbarscrollspy">
+
+   ##############  section 1 header########################### 
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-sticky">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid navbar-brand-regular" src="assets/images/logo/oneshot-white.png"> 
+                    <img class="img-fluid navbar-brand-sticky" src="assets/images/logo/oneshot-pink.png">
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" ti-align-justify navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <section id="home" class="ptb-100"></section>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbarscrollspy">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#features">Features</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#app-screenshorts">Screenshorts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#pricing">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </section> 
+                    </div>
+            </div>
+        </nav>
+     </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script>
+  var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    target: '#navbarScrollSpy'
+  })
+</script>
+</body>
+</html>  */
